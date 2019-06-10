@@ -1,0 +1,138 @@
+body {
+    margin-top: 0px;
+}
+.topHeader{
+    background: 0 0;
+    height: 90px;
+    position: absolute;
+    width: 100%;
+    border: 0;
+}
+
+img.netflixLogo {
+    width: 208px;
+    height: 118px;
+    margin-top: -15px;
+    position: absolute;
+    top: 1;
+    left: 33%;
+    z-index: 2;
+}
+
+.mainAreaWrapper h1, p {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    
+}
+
+.midAreaBG {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) , url(../staticLayout/assets/netflix-background-9.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+}
+
+.midAreaWrapper {
+    position: relative;
+    bottom: 44px;
+    display: inline-block;
+    text-align:center;
+    max-width:100%;
+    padding-top: 60px;
+    margin: 0 3%;
+    height: 500px;
+    width: 906.900px;
+    top: 140px;
+    left: 10%;
+}
+
+.topLoginButton{
+    background-color : #e50914;
+    border: none;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    font-size:16px;
+    float:right;
+    margin: 18px 3% 0;
+    padding: 7px 17px;
+    
+}
+
+.middleFlavorText h1{
+    font-size: 60px;
+    margin: 0px 0px 30px;
+    color: #fff;
+    line-height: 1.1em;
+    font-weight:700;
+    text-shadow: 1px 1px 10px #000;
+    position: relative;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.middleFlavorText p{
+    font-size:24px;
+    margin: 0 0 30px;
+    font-weight:400;
+    letter-spacing: .2px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.trialButton {
+    font-size: 24px;
+    color: #fff;
+    background-color: #e50914;
+    padding: 1em 1.5em 1em 2em;
+    margin: .5em .5em .5em 0;
+    letter-spacing: 1.9px;
+    font-weight:400;
+    position:relative;
+    box-shadow: 0 1px 0 rgba(0,0,0,.45);
+    line-height: 1em;
+    vertical-align:middle;
+    border-radius: 2px;
+    text-align: center;
+    border: 0;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.alreadyMember  {
+    text-align: center;
+    color: #fff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 1.2rem;
+    padding: 1rem 0 0;
+    display: inline-block;
+}
+
+.alreadyMember a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bottomHalfWrapper {
+    margin-top: 0;
+    position: relative;
+}
+
+.threeMidItems {
+    width: 33.3%;
+    display: inline-block;
+    padding: 0 1px;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
