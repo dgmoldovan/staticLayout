@@ -30,7 +30,7 @@
 }
 
 .midAreaBG {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) , url(../staticLayout2/assets/netflix-background-9.jpg) ;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) , url(assets/netflix-background-9.jpg) ;
     position: absolute;
     top: 0;
     left: 0;
