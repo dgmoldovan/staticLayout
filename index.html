@@ -5,65 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="/projects/staticLayout2/style.css">
 </head>
 <body>
-    <div class="topHeader">
-        <img class="netflixLogo" src="../staticLayout/assets/netflix logo.png">
-
-        <button class="topLoginButton">Sign In</button>
-
-    </div>
-<div class="mainBodyWrapper">
-    <div class="midAreaBG"></div>
-    <div class="midAreaWrapper">
-        <div class="middleFlavorText">
-            <h1>See what's next.</h1>
-            <p>WATCH ANYWHERE. CANCEL ANYTIME.</p>
-        </div>
-
-        <div class="bigRedButton">
-            <button class="trialButton">TRY 30 DAYS FREE  ></button>
-        </div>
-        <div class="alreadyMember">
-            <p>Have an account? </p> 
-            <a href="placeholder">Sign In</a> 
+    <!--Top Header Area-->
+    <div class="headerWrapper">
+        <div class="headerBar">
+            <!--login button and logo go here-->
+            <img id="netflixLogo" src="assets/netflix logo.png">
+            <button class="topLoginButton">Sign In</button>
         </div>
     </div>
-    <div class="bottomHalfWrapper">
-        <div class="threeMidItems">
-            <div class="cancelAnytime"></div>
-            <div class="watchAnywhere"></div>
-            <div class="pickPrice"></div>
+    <!--large billboard area with background image-->
+    <div class="billboardWrapper">
+        <div class="midAreaBG"></div>
+        <div class="billboardUpperText">
+            <h1 id="whatNext">See what's next.</h1>
+            <p id="anywhereAnytime">WATCH ANYWHERE. CANCEL ANYTIME.<p>
         </div>
-        <div class="bigBottomArea">
-            <div class="bigBottomInnerBox">
-                <div class="bottomTextAndBox">
-                    <div class="bottomTextArea">
-                        <p>If you decide Netflix isn't for you - no problem. No Commitment. Cancel online anytime.</p>
-                    </div>
-                    <div class="bottomButton">
-                        <button class="btn btn-large btn-red">TRY 30 DAYS FREE</button>
-                    </div>
-                </div>
-            </div>
+        <div class="tryFreeButton">
+                <button class="trialButton" id="middleTrialBtn">TRY 30 DAYS FREE  ></button>
         </div>
-        <div class="bigBottomPhoto">
-            <img class="bottomBigImage" src="needtogetimage">
+        <div class="signInLink">
+            <p>Have an account?</p>
+            <a href="placeholder" id="signIn">Sign in.</a> 
         </div>
-    </div>    
-</div>    
-    <div class="footerArea">
-        <div class="upperFooter">
-            <p>Questions? Call </p>
-            <a href="telephoneNumber">1-866-579-7172</a>
-        </div>
-        <div class="unorderedList">
 
-        </div>
-        <div class="languangeSelector">
-
+    </div>
+    <!--middle 3 picture selection box area-->
+    <!--cheating here now and options wont change, need to figure out what way to change tabs like they do-->
+    <div class="triOptionWrapper">
+        <div class="threeOptions">
+            <h2>No Commitments Cancel Online Anytime</h2>
+            <h2>Watch Anywhere</h2>
+            <h2>Pick your price</h2>
+            <!-- <div class="leftOption"></div>
+            <div class="midOption"></div>
+            <div class="rightOption"></div> -->
         </div>
     </div>
+    <!--FAKE Selection Area-->
+    <!--organizing this might be weird trying to get things to line up how they do-->
+    <div class="bigBottomWrapper">
+
+        <div class="bigBottomLeftSide">
+
+            <h2 id="noProblem">If you decide Netflix isn't for you - no problem.</h2>
+            <h2 id="noCommit">No commitment. Cancel online anytime.</h2> 
+
+            <button class="trialButtonBottom">TRY 30 DAYS FREE</button>
+
+        </div>
+        
+        <div class="bigBottomImage">
+                <img class="cancelAnytime" src="assets/asset_cancelanytime_withdevice.png">
+
+        </div>
+
+    </div>
+
+    <!--FOOTER AREA-->
+    <footer>
+
+
+    </footer>
 </body>
 </html>
